@@ -1,5 +1,6 @@
 body {
-    background-color: #FEFEF2;
+    /*background-color: #FEFEF2;*/
+    background-image: -webkit-linear-gradient(right, #FC7864, #FDA366);
 }
 
 #header {
@@ -9,6 +10,11 @@ body {
   margin-left: auto;
   margin-right: auto;
   margin-bottom:1em;
+}
+button.scroll:hover {
+  transform: scale(1.2);
+  transition: all 1s;
+  transform-origin: 50% 50%;
 }
 
 button.scroll {
@@ -21,6 +27,7 @@ button.scroll {
     bottom: 0;
     width:8em;
     height:10em
+
 }
 
 h1#headtext {
