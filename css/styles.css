@@ -1,6 +1,5 @@
 body {
-    /*background-color: #FEFEF2;*/
-    background-image: -webkit-linear-gradient(right, #FC7864, #FDA366);
+    background-color: #1a1e22;
 }
 
 #header {
@@ -32,19 +31,25 @@ button.scroll {
 
 h1#headtext {
  font: 6vw "Futura", sans-serif;
+ color: #ded63a;
  text-align: center;
  border: none;
 }
 
+div#links {
+    font-family: "Palatino Linotype","Book Antiqua","Palatino",serif;
+    color: #fff5d0;
+}
+
 div#links a {
   font: 2.2vw "Futura", sans-serif;
-  color: black;
+  color: #ded63a;
   text-decoration : none;
 }
 
 div#links {
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 15%;
+  margin-right: 15%;
   display: block;
   text-align: center;
 }
@@ -62,15 +67,7 @@ section#about p {
   left: 50%;
   transform: translate(-50%, -50%);
 }
-section#sounds.slide {
-  background-color: orange;
-}
-section#cooking.slide {
-  background-color: green;
-}
-section#fitness.slide {
-  background-color: yellow;
-}
+
 
 .slide {
   margin-left: auto;
